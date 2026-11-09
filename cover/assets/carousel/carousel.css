@@ -1,0 +1,249 @@
+
+/* ===== CORES DO SITE ===== */
+body {
+    background-color: #f5f5f5;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== MENU ===== */
+.navbar {
+    background-color: #151515 !important;
+    border-bottom: 4px solid #ff7020;
+}
+
+.navbar-brand {
+    color: #ff7020 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+/* ===== BANNER ===== */
+.carousel-item {
+    height: 550px;
+    background-color: black;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+/* ===== TEXTO DO BANNER ===== */
+.carousel-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.carousel-caption p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* ESCURECER UM POUCO AS IMAGENS */
+.carousel-item img {
+    filter: brightness(55%);
+}
+
+/* BOTÕES LARANJAS */
+.carousel-caption .btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #cc5200;
+}
+
+/* ===== BOTÕES ===== */
+.btn-primary {
+    background-color: #ff7020;
+    border-color: #ff7020;
+}
+
+.btn-primary:hover {
+    background-color: #d9530d;
+    border-color: #d9530d;
+}
+
+/* ===== CARDS DOS TIMES ===== */
+.marketing {
+    padding-top: 50px;
+}
+
+.marketing .col-lg-4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.marketing img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff7020;
+}
+
+.marketing h2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* ===== TÍTULOS DOS TIMES ===== */
+.featurette-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-left: 5px solid #ff7020;
+    padding-left: 10px;
+}
+
+/* ===== TEXTOS DOS TIMES ===== */
+.featurette .lead {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* ===== IMAGENS GRANDES ===== */
+
+/* ===== IMAGENS DO BANNER ===== */
+.carousel-item {
+    height: 550px;
+    background-color: black;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+/* ===== IMAGENS REDONDAS DOS TIMES ===== */
+.marketing .col-lg-4 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ff7020;
+}
+
+/* ===== IMAGENS GRANDES DOS TIMES ===== */
+.featurette img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* ===== LINHAS ===== */
+.featurette-divider {
+    margin: 50px 0;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    padding: 25px 0;
+    border-top: 3px solid #ff7020;
+}
+
+footer a {
+    color: #e85d13;
+    text-decoration: none;
+}
+
+/* ===== CELULAR ===== */
+@media (max-width: 768px) {
+    .carousel-item,
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 23px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+
+/* MODO ESCURO */
+body {
+    background-color: #121212;
+    color: white;
+}
+
+/* MENU */
+.navbar {
+    background-color: #080808 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ff7020 !important;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+    color: #ff7020;
+    
+}
+
+/* TEXTOS */
+p {
+    color: #dddddd;
+}
+
+/* SEÇÕES DOS TIMES */
+.featurette {
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+/* IMAGENS DOS TIMES */
+.featurette img {
+    border-radius: 15px;
+}
+
+/* LINHAS DIVISÓRIAS */
+.featurette-divider {
+    border-color: #ff7020;
+}
+
+/* BOTÕES */
+.btn-secondary {
+    background-color: #ff7020;
+    color: white;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #d9530d;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #080808;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #ff7020;
+}

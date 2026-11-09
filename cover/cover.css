@@ -1,0 +1,90 @@
+
+body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.75)
+    ),
+    url("img/imagem.png.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Título */
+h3 {
+    color: #ff6600;
+    font-size: 28px;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* Menu */
+.nav-masthead .nav-link {
+    color: white;
+    margin-left: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-masthead .nav-link:hover {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+/* Título principal */
+main h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ff6600;
+    text-shadow: 3px 3px 5px black;
+ 
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Texto */
+main p {
+    font-size: 20px;
+    line-height: 1.7;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Botão */
+.btn-light {
+    color: white !important;
+    background-color: #ff6600 !important;
+    border: 2px solid white !important;
+    transition: 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #e65300 !important;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    color: white !important;
+}
+
+/* Efeito no banner */
+.cover-container {
+    animation: aparecer 1.5s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
